@@ -1,4 +1,4 @@
-/*@Override
+@Override
 public double getTotalPrice() {
         return getVehicleSold().getPrice() + salesTaxAmount + recordingFee + processingFee;
         }

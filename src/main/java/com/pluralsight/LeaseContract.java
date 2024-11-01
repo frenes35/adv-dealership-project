@@ -1,4 +1,4 @@
-/*@Override
+@Override
 public double getTotalPrice() {
         return (getVehicleSold().getPrice() - expectedEndingValue) + leaseFee;
         }
@@ -11,4 +11,4 @@ public double getMonthlyPayment() {
         monthlyPayment = Math.round(monthlyPayment * 100);
         monthlyPayment /= 100;
         return monthlyPayment;
-        }*/
+        }

@@ -1,17 +1,24 @@
 # Project Title
 
+adv-dealership-project
+
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+This Java console application is designed to manage the inventory, sales, and leasing operations of a car dealership.
+Users can search vehicles based on various criteria such as price, model, year, and other attributes.
+Additionally, the application allows users to add new vehicles to the inventory, remove existing vehicles,
+and record customer information and contract details (for sales or leases).
 
-![Class Diagram](path/to/your/class_diagram.png)
+The intended users of this application are small-scale car dealership owners and their employees.
+It aims to help dealership staff easily track vehicles in inventory and manage customer contracts efficiently,
+ultimately streamlining day-to-day inventory and contract management tasks.
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a user, I want to buy a vehicle so that I can complete the purchase and own the car.
+- As a user, I want to lease a vehicle so that I can drive it temporarily without buying it.
+- As a user, I want to see the estimated monthly lease payment based on my lease term choice so I understand the cost.
+- As a user, I want to review the contract before finalizing my lease or purchase so that I am clear on the terms.
 
 ## Setup
 
@@ -19,7 +26,8 @@ Instructions on how to set up and run the project using IntelliJ IDEA.
 
 ### Prerequisites
 
-- IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download from [here](https://www.jetbrains.com/idea/download/).
+- IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download
+  from [here](https://www.jetbrains.com/idea/download/).
 - Java SDK: Make sure Java SDK is installed and configured in IntelliJ.
 
 ### Running the Application in IntelliJ
@@ -34,21 +42,19 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java 17
+- IntelliJ IDEA
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
 
-![Application Screenshot](path/to/your/screenshot.png)
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Advanced Contract Reporting: Generate detailed reports of contracts and export them.
+- Admin Interface: Add an admin mode for more in-depth inventory and contract review features.
+- Customization Options: Include optional packages or add-ons that customers can select when purchasing or leasing a
+  vehicle.
 
 ## Resources
 
@@ -59,12 +65,9 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- Enes yilmaz.
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
+- Thank you to raymond for continuous support and guidance.
 - A special thanks to all teammates for their dedication and teamwork.

@@ -46,7 +46,8 @@ Follow these steps to get your application running within IntelliJ IDEA:
 - IntelliJ IDEA
 
 ## Demo
-
+ - leases car![leases car.png](imgs%2Fleases%20car.png)
+ - ![sales car.png](imgs%2Fsales%20car.png)
 
 
 ## Future Work

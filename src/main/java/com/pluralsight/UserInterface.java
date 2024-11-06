@@ -26,6 +26,7 @@ public class UserInterface {
             System.out.println("7. Get all vehicles");
             System.out.println("8. Add vehicle");
             System.out.println("9. Remove vehicle");
+            System.out.println("10. Sell or Lease a Vehicle");
             System.out.println("99. Quit");
 
             System.out.print("Enter your choice: ");
@@ -58,6 +59,9 @@ public class UserInterface {
                     break;
                 case "9":
                     processRemoveVehicleRequest();
+                    break;
+                case "10":
+                    processSellOrLeaseRequest();
                     break;
                 case "99":
                     quit = true;
@@ -183,6 +187,7 @@ public class UserInterface {
         manager.saveDealership(dealership);
     }
 
+
     private void init() {
         DealershipFileManager manager = new DealershipFileManager();
         dealership = manager.getDealership();
@@ -194,4 +199,17 @@ public class UserInterface {
         }
     }
 
+    private void processSellOrLeaseRequest() {
+        System.out.print("Enter the VIN of the vehicle to sell or lease: ");
+        int vin = scanner.nextInt();
+        scanner.nextLine(); // Consume newline left-over
+
+        Vehicle selectedVehicle = null;
+        for (Vehicle vehicle : dealership.getAllVehicles()) {
+            if (vehicle.getVin() == vin) {
+                selectedVehicle = vehicle;
+                break;
+            }
+        }
+    }
 }
